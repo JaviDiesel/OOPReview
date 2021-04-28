@@ -40,11 +40,20 @@ export class MobileLibrary  {
         this.totalPrice = totalPrice;
     }
 
-    public totalPriceCalculation():number   {
+    private totalPriceCalculation():number   {
         let totalPrice = 0;
         for(let i=0;i<this.mobiles.length;i++)  {
             totalPrice += this.mobiles[i].getPrice();
         }
         return totalPrice;
+    }
+
+    public printLibrary():void  {
+        console.log('This is all my mobiles');
+        for(let i=0;i<this.mobiles.length;i++)  {
+            this.mobiles[i].printMobile();
+        }
+        console.log('..........................');
+        console.log(`Price overall: ${this.totalPrice}`);
     }
 }

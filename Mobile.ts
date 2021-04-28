@@ -72,13 +72,13 @@ export class Mobile {
 
     public printMobile():void   {
         console.log(`The characteristics of the mobile ${this.name} are:`);
-        console.log(`Name: ${this.name}`);
-        console.log(`Model: ${this.model}`);
-        console.log(`Trademark: ${this.trademark}`);
-        console.log(`SD Size: ${this.sdSize}`);
-        console.log(`Color: ${this.color}`);
-        console.log(`Is 5g?: ${this.is5G}`);
-        console.log(`Number of Cameras: ${this.cameraNumber}`);
+        console.log(`\tName: ${this.name}`);
+        console.log(`\tModel: ${this.model}`);
+        console.log(`\tTrademark: ${this.trademark}`);
+        console.log(`\tSD Size: ${this.sdSize}`);
+        console.log(`\tColor: ${this.color}`);
+        console.log(`\tIs 5g?: ${this.is5G}`);
+        console.log(`\tNumber of Cameras: ${this.cameraNumber}`);
         console.log('');
     }
 }

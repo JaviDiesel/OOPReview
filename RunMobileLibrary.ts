@@ -24,3 +24,5 @@ library.setMobiles([movil_1,movil_2]);
 library.setTotalPrice(123);
 
 p_print();
+
+library.printLibrary();//el precio total es 123 porque antes lo he cambiado con el setter.
